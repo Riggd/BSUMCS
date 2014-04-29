@@ -12,15 +12,16 @@
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/vendor/modernizr.js"></script>
     <script type="text/javascript" src="js/navscroll.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
 </head>
 <body>
-    
+
     <header id="header" class="header">
         <!-- Nav Here -->
         <div class="row">
             <a href="" class="header-logo">
                 <!-- LOGO HERE -->
-                <img src="">
+                <img class="header-img" src="images/cardinal.png">
             </a>
             <nav>
                 <ul class="header-list">
@@ -40,6 +41,7 @@
             <div class="intro dark-fade">
                 <div class="top-title title-intro">
                     <!-- Insert New Logo/Badge -->
+                    <img class="intro-logo" src="images/logo.png">
                     Ball State Men's Club Soccer
                 </div>
             </div>
@@ -87,53 +89,63 @@
                         Your BSU Cardinals
                     </div>
                 </div>
-                <section id="roster">
-                    <div class="row">
-                        <div class="small-12 medium-6 large-3 columns">1</div>
-                        <div class="small-12 medium-6 large-3 columns">2</div>
-                        <div class="small-12 medium-6 large-3 columns">3</div>
-                        <div class="small-12 medium-6 large-3 columns">4</div>                 
-                    </div>
-                    <div class="row">
-                        <div class="stretch-2">
-                            <div class="small-12 medium-4 large-2 columns">5</div>
-                            <div class="small-12 medium-4 large-2 columns">6</div>
-                            <div class="small-12 medium-4 large-2 columns">7</div>
-                            <div class="small-12 medium-4 large-2 columns">8</div>
-                            <div class="small-12 medium-4 large-2 columns end">9</div>     
+                <section class="roster">
+                    <a href="#" class="clickme">Show 2014 Roster</a>
+                    <div class="box">
+                        <div class="row">
+                            <div class="small-12 medium-6 large-3 columns">1</div>
+                            <div class="small-12 medium-6 large-3 columns">2</div>
+                            <div class="small-12 medium-6 large-3 columns">3</div>
+                            <div class="small-12 medium-6 large-3 columns">4</div>                 
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="stretch-2">
-                            <div class="small-12 medium-4 large-2 columns">10</div>
-                            <div class="small-12 medium-4 large-2 columns">11</div>
-                            <div class="small-12 medium-4 large-2 columns">12</div>
-                            <div class="small-12 medium-4 large-2 columns">13</div>
-                            <div class="small-12 medium-4 large-2 columns end">14</div>     
+                        <div class="row">
+                            <div class="stretch-2">
+                                <div class="small-12 medium-4 large-2 columns">5</div>
+                                <div class="small-12 medium-4 large-2 columns">6</div>
+                                <div class="small-12 medium-4 large-2 columns">7</div>
+                                <div class="small-12 medium-4 large-2 columns">8</div>
+                                <div class="small-12 medium-4 large-2 columns end">9</div>     
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="stretch-2">
-                            <div class="small-12 medium-4 large-2 columns">15</div>
-                            <div class="small-12 medium-4 large-2 columns">16</div>
-                            <div class="small-12 medium-4 large-2 columns">17</div>
-                            <div class="small-12 medium-4 large-2 columns">18</div>
-                            <div class="small-12 medium-4 large-2 columns end">19</div>     
+                        <div class="row">
+                            <div class="stretch-2">
+                                <div class="small-12 medium-4 large-2 columns">10</div>
+                                <div class="small-12 medium-4 large-2 columns">11</div>
+                                <div class="small-12 medium-4 large-2 columns">12</div>
+                                <div class="small-12 medium-4 large-2 columns">13</div>
+                                <div class="small-12 medium-4 large-2 columns end">14</div>     
+                            </div>
                         </div>
-                    </div>                    
-                    <div class="row">
-                        <div class="stretch-2">
-                            <div class="small-12 large-2 columns hide-for-medium-only">space</div>
-                            <div class="small-12 medium-4 large-2 columns">20</div>
-                            <div class="small-12 medium-4 large-2 columns">21</div>
-                            <div class="small-12 medium-4 large-2 columns">22</div>
-                            <div class="small-12 large-2 columns hide-for-medium-only end">space</div>     
+                        <div class="row">
+                            <div class="stretch-2">
+                                <div class="small-12 medium-4 large-2 columns">15</div>
+                                <div class="small-12 medium-4 large-2 columns">16</div>
+                                <div class="small-12 medium-4 large-2 columns">17</div>
+                                <div class="small-12 medium-4 large-2 columns">18</div>
+                                <div class="small-12 medium-4 large-2 columns end">19</div>     
+                            </div>
+                        </div>                    
+                        <div class="row">
+                            <div class="stretch-2">
+                                <div class="small-12 large-2 columns hide-for-medium-only">space</div>
+                                <div class="small-12 medium-4 large-2 columns">20</div>
+                                <div class="small-12 medium-4 large-2 columns">21</div>
+                                <div class="small-12 medium-4 large-2 columns">22</div>
+                                <div class="small-12 large-2 columns hide-for-medium-only end">space</div>     
+                            </div>
                         </div>
                     </div>
                 </section>
-                <div class="row">
-                    <section id="schedule"></section>
-                </div>
+                
+                <section class="schedule">
+                    <a href="#" class="clickme">Show 2014 Schedule</a>
+                    <div class="box2">
+                        <div class="row">
+                            INSERT TABLE HERE!
+                        </div>
+                    </div>
+                </section>
+                
             </div>
             
         </section>
