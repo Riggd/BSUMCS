@@ -11,6 +11,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/vendor/modernizr.js"></script>
+       
     <script type="text/javascript" src="js/navscroll.js"></script>
     <script type="text/javascript" src="js/content.js"></script>
 </head>
@@ -61,22 +62,45 @@
                 </div>
                 <div class="row">
                     <div class="medium-6 columns">
-                        <h3 class="center-text">History of our club</h3>
+                        <h1 class="center-text">History of our club</h3>
                         <p>
                         Ball State University Men's Club Soccer is a high-level soccer program that plays in the Midwest Alliance Soccer Conference (MASC), Eastern division, against club soccer teams from Ohio University, Cincinnati, Dayton, Xavier and Miami of Ohio, as well as other college and universities. During the offseason and before the league starts in the fall we play in friendlies against local Indiana clubs. We practice 2 to 4 times a week. Playing time is based off attendance of practices and talent level. As a team we participate as a part of Ball State's Community promoting our club team while also taking part in stadium clean ups, supporting the girls school soccer team, also girls club team and any soccer related events that help promote Ball State Community and the team. 
                         </p>
                     </div>
                     <div class="medium-6 columns">
-                        <h3 class="center-text">2014 Tryouts</h3>
+                        <h1 class="center-text">2014 Tryouts</h1>
                         <div class="row">
                             <div class="small-12 medium-12 large-6 columns">
                             <h4 class="center-text">When?</h4>
+                            
                             </div>
                             <div class="small-12 medium-12 large-6 columns">
                             <h4 class="center-text">What?</h4>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <h1 div class="center-text">What We Do</h1>
+                    <div class="medium-4 columns">
+                        <h3 div class="center-text">Team Information</h3>
+                        Fusce luctus est a dolor luctus dapibus. In pharetra lectus est, vitae adipiscing quam iaculis at. Sed sit amet aliquam tellus, pharetra luctus enim. Donec et quam ac lorem suscipit laoreet et ac risus. Pellentesque varius nunc ac dui mollis, sit amet scelerisque neque tempus. Mauris quis malesuada est. Pellentesque dolor purus, tempus sed sollicitudin ut, pretium at dolor. In blandit nisl sit amet vestibulum sollicitudin. Etiam quam ligula, interdum sit amet mattis a, ornare ut lorem. Donec porta arcu vitae felis suscipit, et imperdiet est feugiat. Vestibulum in ipsum in purus facilisis venenatis quis eget risus. Pellentesque dictum sollicitudin pellentesque. Maecenas malesuada consequat erat, id tempor mi mollis tempor. 
+                    </div>
+                    <div class="medium-4 columns">
+                        <h3 div class="center-text">Community Involvement</h3>
+                        Fusce luctus est a dolor luctus dapibus. In pharetra lectus est, vitae adipiscing quam iaculis at. Sed sit amet aliquam tellus, pharetra luctus enim. Donec et quam ac lorem suscipit laoreet et ac risus. Pellentesque varius nunc ac dui mollis, sit amet scelerisque neque tempus. Mauris quis malesuada est. Pellentesque dolor purus, tempus sed sollicitudin ut, pretium at dolor. In blandit nisl sit amet vestibulum sollicitudin. Etiam quam ligula, interdum sit amet mattis a, ornare ut lorem. Donec porta arcu vitae felis suscipit, et imperdiet est feugiat. Vestibulum in ipsum in purus facilisis venenatis quis eget risus. Pellentesque dictum sollicitudin pellentesque. Maecenas malesuada consequat erat, id tempor mi mollis tempor. 
+                    </div>   
+                    <div class="medium-4 columns">
+                        <h3 div class="center-text">Partners</h3>
+                        <ul class="small-block-grid-2 medium-block-grid-2">
+                            <li>DCFC logo</li>
+                            <li>looking for partners</li>
+                            <li>looking for partners</li>
+                            <li>looking for partners</li>
+                            <li>looking for partners</li>
+                            <li>looking for partners</li>
+                        </ul>
+                    </div>                       
                 </div>
                 
             </div>            
@@ -330,7 +354,114 @@
                             2014-2015 Midwest Alliance Conference Schedule
                         </div>
                         <div class="row">
-                            INSERT TABLE HERE!
+                            <table> 
+                                <thead> 
+                                    <tr> 
+                                        <th width="15%">Date</th> 
+                                        <th width="20%">Home Team</th> 
+                                        <th width="20%">Away Team</th> 
+                                        <th width="20%">Location</th> 
+                                        <th width="5%">Result</th> 
+                                    </tr> 
+                                </thead> 
+                                <tbody> 
+                                    <tr> 
+                                        <td>September 7th, 2014</td> 
+                                        <td>Michigan State University</td>
+                                        <td>Ball State University</td> 
+                                        <td>Michigan State University</td> 
+                                        <td>N/A</td> 
+                                    </tr> 
+                                    <tr> 
+                                        <td>September 27th, 2014</td> 
+                                        <td>Ball State University</td> 
+                                        <td>Ferris State University</td>
+                                        <td>Ball State University</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>September 28th, 2014</td> 
+                                        <td>Ball State University</td>
+                                        <td>Grand Valley State University</td>                                         
+                                        <td>Ball State University</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 4th, 2014</td>                                         
+                                        <td>Butler University</td> 
+                                        <td>Ball State University</td>
+                                        <td>Butler University</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 5th, 2014</td> 
+                                        <td>Ball State University</td>
+                                        <td>Purdue University</td>                                         
+                                        <td>Ball State University</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 11th, 2014</td>                                         
+                                        <td>Western Michigan University</td>  
+                                        <td>Ball State University</td>                                        
+                                        <td>South Bend</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 12th, 2014</td>                                         
+                                        <td>Notre Dame University</td>  
+                                        <td>Ball State University</td>                                        
+                                        <td>Notre Dame University</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 12th, 2014</td>                                         
+                                        <td>Central Michigan University</td>  
+                                        <td>Ball State University</td>                                        
+                                        <td>Notre Dame University</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 19th, 2014</td>                                         
+                                        <td>Eastern Michigan University</td>  
+                                        <td>Ball State University</td>                                        
+                                        <td>South Bend</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                    <tr> 
+                                        <td>October 19th, 2014</td>                                         
+                                        <td>University of Michigan</td>  
+                                        <td>Ball State University</td>                                        
+                                        <td>South Bend</td> 
+                                        <td>N/A</td>
+                                    </tr> 
+                                </tbody> 
+                            </table>
+                        </div>
+                        <div class="drop-title">
+                            Post-season Friendlies and Tournaments
+                        </div>
+                        <div class="row">
+                            <table> 
+                                <thead> 
+                                    <tr> 
+                                        <th width="15%">Date</th> 
+                                        <th width="20%">Home Team</th> 
+                                        <th width="20%">Away Team</th> 
+                                        <th width="20%">Location</th> 
+                                        <th width="5%">Result</th> 
+                                    </tr> 
+                                </thead> 
+                                <tbody> 
+                                    <tr> 
+                                        <td>September 7th, 2014</td> 
+                                        <td>Michigan State University</td>
+                                        <td>Ball State University</td> 
+                                        <td>Michigan State University</td> 
+                                        <td>N/A</td> 
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </section>
@@ -380,6 +511,7 @@
                     <div class="large-3 columns">
                     Find us here:<br />
                     facebook<br />
+                    MASC<br />
                     sportclub<br />
                     bsu.edu<br />
                     </div>
