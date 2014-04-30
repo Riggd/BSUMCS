@@ -11,9 +11,16 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/vendor/modernizr.js"></script>
-       
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/foundation/foundation.js"></script>
+    <script type="text/javascript" src="js/foundation/foundation.equalizer.js"></script>
+    
     <script type="text/javascript" src="js/navscroll.js"></script>
     <script type="text/javascript" src="js/content.js"></script>
+    
+    <script type="text/javascript">
+    $(document).foundation();
+    </script>
 </head>
 <body>
 
@@ -92,7 +99,7 @@
                     </div>   
                     <div class="medium-4 columns">
                         <h3 div class="center-text">Partners</h3>
-                        <ul class="small-block-grid-2 medium-block-grid-2">
+                        <ul class="small-block-grid-2">
                             <li>DCFC logo</li>
                             <li>looking for partners</li>
                             <li>looking for partners</li>
