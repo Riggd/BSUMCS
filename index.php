@@ -364,11 +364,11 @@
                             <table> 
                                 <thead> 
                                     <tr> 
-                                        <th width="15%">Date</th> 
-                                        <th width="20%">Home Team</th> 
-                                        <th width="20%">Away Team</th> 
-                                        <th width="20%">Location</th> 
-                                        <th width="5%">Result</th> 
+                                        <th>Date</th> 
+                                        <th>Home Team</th> 
+                                        <th>Away Team</th> 
+                                        <th>Location</th> 
+                                        <th>Result</th> 
                                     </tr> 
                                 </thead> 
                                 <tbody> 
@@ -452,11 +452,11 @@
                             <table> 
                                 <thead> 
                                     <tr> 
-                                        <th width="15%">Date</th> 
-                                        <th width="20%">Home Team</th> 
-                                        <th width="20%">Away Team</th> 
-                                        <th width="20%">Location</th> 
-                                        <th width="5%">Result</th> 
+                                        <th>Date</th> 
+                                        <th>Home Team</th> 
+                                        <th>Away Team</th> 
+                                        <th>Location</th> 
+                                        <th>Result</th> 
                                     </tr> 
                                 </thead> 
                                 <tbody> 
@@ -485,16 +485,48 @@
                 </div>
                 <div class="burris">
                     <div class="row">
-                        <div class="medium-4 medium-offset-8 columns">
-                            <h3 class="center-text">Testing Title</h3>
+                        <div class="medium-4 medium-offset-7 columns">
+                            <div class="venue-title center-text">Burris Field</div>
+                            <div class="venue-info">
+                            Home field for the Men and Women's BSU club soccer teams, as well as Burris Laboratory School.<br /><br />
+                            This venue, brought to life in 2013, is used only for matches.<br /><br />
+                            When our Cardinals step on to this pitch... they mean business!                            
+                            </div>
+                            BUTTONS HERE
+                            TO MAP - FIELD STATUS
                         </div>
                     </div>
                 </div>
                 <div class="heath">
-                
+                    <div class="row">
+                        <div class="medium-4 medium-offset-7 columns">
+                            <div class="venue-title center-text">Heath Field</div>
+                            <div class="venue-info">
+                            Practice field for our Cardinals.<br /><br />
+                            Our Cardinals also uses Heath Field as our secondary game field if Burris Field is occupied or unavailable for matches.<br /><br />
+                            About that hill situated on the 18 yard box... get used to it!<br /><br />
+                            </div>
+                            BUTTONS HERE
+                            TO MAP - FIELD STATUS
+                        </div>
+                    </div>
                 </div>
                 <div class="turf">
-                
+                    <div class="row">
+                        <div class="medium-4 medium-offset-7 columns">
+                            <div class="venue-title center-text">
+                                Briner Sports Complex<br />
+                                Turf Field
+                            </div>
+                            <div class="venue-info">
+                            Briner Sports Complex is a state of the art sports complex, owned by BSU Athletics.<br /><br />
+                            Our Cardinals occasionally have a chance to host games at this complex; however, Athletics has first draw.<br /><br />
+                            When our team gets the green light for the turf field, we make sure to make good use of our time!
+                            </div>
+                            BUTTONS HERE
+                            TO MAP - FIELD STATUS
+                        </div>
+                    </div>
                 </div>
                 
             </div>
