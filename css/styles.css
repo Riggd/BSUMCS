@@ -163,8 +163,6 @@ h1, h2, h3 {
 
 }
 
-
-
 /*
     ============================
     INTRO STYLES
@@ -269,19 +267,24 @@ blockquote {
     -webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
     border: .5em solid #C8C8C8;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
     transform: scale(0.8);
 }   
 
 .circular img:hover, .circular-officer img:hover {
-    transform: scale(.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
 } 
 
-/*
-    ============================
-    TEAM STYLES
-    ============================
-*/
+
 
 /*
     ============================

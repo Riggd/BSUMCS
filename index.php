@@ -89,17 +89,17 @@
                 </div>
                 <div class="row">
                     <h1 div class="center-text">What We Do</h1>
-                    <div class="medium-4 columns">
+                    <div class="medium-6 large-4  columns">
                         <h3 div class="center-text">Team Information</h3>
                         Fusce luctus est a dolor luctus dapibus. In pharetra lectus est, vitae adipiscing quam iaculis at. Sed sit amet aliquam tellus, pharetra luctus enim. Donec et quam ac lorem suscipit laoreet et ac risus. Pellentesque varius nunc ac dui mollis, sit amet scelerisque neque tempus. Mauris quis malesuada est. Pellentesque dolor purus, tempus sed sollicitudin ut, pretium at dolor. In blandit nisl sit amet vestibulum sollicitudin. Etiam quam ligula, interdum sit amet mattis a, ornare ut lorem. Donec porta arcu vitae felis suscipit, et imperdiet est feugiat. Vestibulum in ipsum in purus facilisis venenatis quis eget risus. Pellentesque dictum sollicitudin pellentesque. Maecenas malesuada consequat erat, id tempor mi mollis tempor. 
                     </div>
-                    <div class="medium-4 columns">
+                    <div class="medium-6 large-4  columns">
                         <h3 div class="center-text">Community Involvement</h3>
                         Fusce luctus est a dolor luctus dapibus. In pharetra lectus est, vitae adipiscing quam iaculis at. Sed sit amet aliquam tellus, pharetra luctus enim. Donec et quam ac lorem suscipit laoreet et ac risus. Pellentesque varius nunc ac dui mollis, sit amet scelerisque neque tempus. Mauris quis malesuada est. Pellentesque dolor purus, tempus sed sollicitudin ut, pretium at dolor. In blandit nisl sit amet vestibulum sollicitudin. Etiam quam ligula, interdum sit amet mattis a, ornare ut lorem. Donec porta arcu vitae felis suscipit, et imperdiet est feugiat. Vestibulum in ipsum in purus facilisis venenatis quis eget risus. Pellentesque dictum sollicitudin pellentesque. Maecenas malesuada consequat erat, id tempor mi mollis tempor. 
                     </div>   
-                    <div class="medium-4 columns">
+                    <div class="medium-12 large-4 columns">
                         <h3 div class="center-text">Partners</h3>
-                        <ul class="small-block-grid-2">
+                        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-2">
                             <li>DCFC logo</li>
                             <li>looking for partners</li>
                             <li>looking for partners</li>
@@ -485,7 +485,7 @@
                 </div>
                 <div class="burris">
                     <div class="row">
-                        <div class="medium-4 medium-offset-7 columns">
+                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns">
                             <div class="venue-title center-text">Burris Field</div>
                             <div class="venue-info">
                             Home field for the Men and Women's BSU club soccer teams, as well as Burris Laboratory School.<br /><br />
@@ -499,7 +499,7 @@
                 </div>
                 <div class="heath">
                     <div class="row">
-                        <div class="medium-4 medium-offset-7 columns">
+                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns">
                             <div class="venue-title center-text">Heath Field</div>
                             <div class="venue-info">
                             Practice field for our Cardinals.<br /><br />
@@ -513,7 +513,7 @@
                 </div>
                 <div class="turf">
                     <div class="row">
-                        <div class="medium-4 medium-offset-7 columns">
+                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns">
                             <div class="venue-title center-text">
                                 Briner Sports Complex<br />
                                 Turf Field
@@ -539,21 +539,47 @@
                         Get involved
                     </div>
                 </div>
+                <div class="row">
+                    <div class="medium-6 columns">
+                    Information or something... not sure?
+                    </div>
+                    <div class="medium-6 columns">
+                    Mini game why not, I program anyways.
+                    </div>
+                </div>                
                 <div class="row contact-info">
-                    <div class="large-3 columns">
+                    <div class="medium-6 large-4 columns">
                     Text about why to contact us <br /><br />
                     Cras eget nisi vitae nibh porta interdum ac ac metus. Ut non interdum tortor, sit amet elementum ipsum. Praesent volutpat justo nisi, vitae pulvinar urna accumsan quis. Quisque pulvinar interdum mauris, a varius felis ullamcorper ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam cursus congue molestie. Curabitur tempor lacus mi, at vehicula neque vestibulum sed. Maecenas rhoncus luctus elit. Proin placerat aliquet sodales.               
                     </div>
-                    <div class="large-6 columns">
-                    Contact Form
-                    </div>
-                    <div class="large-3 columns">
+                    <div class="medium-6 large-3 columns">
                     Find us here:<br />
                     facebook<br />
                     MASC<br />
                     sportclub<br />
                     bsu.edu<br />
                     </div>
+                    <div class="large-5 columns">
+                        <form>
+                            <div class="row">
+                                <div class="large-12">
+                                    <label>Name
+                                        <input type="text" placeholder="ex. Derek Onay" />
+                                    </label>
+                                </div>                            
+                                <div class="large-12">
+                                    <label>Email
+                                        <input type="text" placeholder="ex. test@gmail.com" />
+                                    </label>
+                                </div>                            
+                                <div class="large-12">
+                                    <label>Message
+                                        <textarea placeholder="Please enter your message here..."> </textarea>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>                    
                 </div>
             </div>
         </section>
