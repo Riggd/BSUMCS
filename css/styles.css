@@ -87,10 +87,14 @@
     text-align: center;
 }
 
-.clickme:hover, .clickme:active {
+.clickme:hover {
     text-decoration: none;
     background-color: #BF1300;
     color: #222;
+}
+
+.clickme:active  {
+    background-color: #AA1100;
 }
 
 .clickme:visited {
@@ -271,6 +275,57 @@ blockquote {
 .stretch-2 {
     width: 120%;
 }
+
+.stretch-for-no-content {
+    min-height: 1px;
+}
+
+.drop-title {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.roster-text {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 1.3em;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.circular {
+    margin: 0 auto;
+    width: 8em; 
+    height: 8em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular-officer {
+    margin: 0 auto;
+    width: 9.5em; 
+    height: 9.5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular img, .circular-officer img {
+    border-radius:50%;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    border: .5em solid #C8C8C8;
+    transition: transform 0.5s ease;
+    transform: scale(0.8);
+}   
+
+.circular img:hover, .circular-officer img:hover {
+    transform: scale(.9);
+} 
 
 /*
     ============================

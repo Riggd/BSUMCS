@@ -92,46 +92,232 @@
                 <section class="roster">
                     <a href="#" class="clickme">Show 2014 Roster</a>
                     <div class="box">
-                        <div class="row">
-                            <div class="small-12 medium-6 large-3 columns">1</div>
-                            <div class="small-12 medium-6 large-3 columns">2</div>
-                            <div class="small-12 medium-6 large-3 columns">3</div>
-                            <div class="small-12 medium-6 large-3 columns">4</div>                 
+                        <div class="drop-title">
+                            Officers
                         </div>
-                        <div class="row">
+                        <div class="row roster-text">
+                            <div class="small-12 medium-6 large-3 columns">
+                                <div class="circular-officer">
+                                    <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                </div>
+                                President<br />
+                                Derek Onay<br />
+                                Senior<br/>
+                                Computer Science<br />
+                                Midfield<br />                                
+                            </div>
+                            <div class="small-12 medium-6 large-3 columns">
+                                <div class="circular-officer">
+                                    <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                </div>
+                                Vice-President<br />
+                                Ryan Duffy<br />
+                                Senior<br/>
+                                Economics<br />
+                                Forward<br /> 
+                            </div>
+                            <div class="small-12 medium-6 large-3 columns">
+                                <div class="circular-officer">
+                                    <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                </div>
+                                Secretary<br />
+                                Oscar Alvarez<br />
+                                Junior<br/>
+                                *major*<br />
+                                Goalkeeper<br /> 
+                            </div>
+                            <div class="small-12 medium-6 large-3 columns">
+                                <div class="circular-officer">
+                                    <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                </div>
+                                Officer<br />
+                                Luke Hooley<br />
+                                Senior<br/>
+                                *major*<br />
+                                Forward<br /> 
+                            </div>                 
+                        </div>
+                        <div class="drop-title">
+                            Squad
+                        </div>
+                        <div class="row roster-text">
                             <div class="stretch-2">
-                                <div class="small-12 medium-4 large-2 columns">5</div>
-                                <div class="small-12 medium-4 large-2 columns">6</div>
-                                <div class="small-12 medium-4 large-2 columns">7</div>
-                                <div class="small-12 medium-4 large-2 columns">8</div>
-                                <div class="small-12 medium-4 large-2 columns end">9</div>     
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />    
+                                </div>
+                                <div class="small-10 medium-4 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-5 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-5 large-2 columns end">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>     
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row roster-text">
                             <div class="stretch-2">
-                                <div class="small-12 medium-4 large-2 columns">10</div>
-                                <div class="small-12 medium-4 large-2 columns">11</div>
-                                <div class="small-12 medium-4 large-2 columns">12</div>
-                                <div class="small-12 medium-4 large-2 columns">13</div>
-                                <div class="small-12 medium-4 large-2 columns end">14</div>     
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />    
+                                </div>
+                                <div class="small-10 medium-4 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-5 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-5 large-2 columns end">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>     
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row roster-text">
                             <div class="stretch-2">
-                                <div class="small-12 medium-4 large-2 columns">15</div>
-                                <div class="small-12 medium-4 large-2 columns">16</div>
-                                <div class="small-12 medium-4 large-2 columns">17</div>
-                                <div class="small-12 medium-4 large-2 columns">18</div>
-                                <div class="small-12 medium-4 large-2 columns end">19</div>     
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />    
+                                </div>
+                                <div class="small-10 medium-4 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-5 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>
+                                <div class="small-10 medium-5 large-2 columns end">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br />  
+                                </div>     
                             </div>
-                        </div>                    
-                        <div class="row">
+                        </div>               
+                        <div class="row roster-text">
                             <div class="stretch-2">
-                                <div class="small-12 large-2 columns hide-for-medium-only">space</div>
-                                <div class="small-12 medium-4 large-2 columns">20</div>
-                                <div class="small-12 medium-4 large-2 columns">21</div>
-                                <div class="small-12 medium-4 large-2 columns">22</div>
-                                <div class="small-12 large-2 columns hide-for-medium-only end">space</div>     
+                                <div class="large-2 columns stretch-for-no-content hide-for-medium-down"></div>
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br /> 
+                                </div>
+                                <div class="small-10 medium-4 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br /> 
+                                </div>
+                                <div class="small-10 medium-3 large-2 columns">
+                                    <div class="circular">
+                                        <img src="http://lorempixel.com/output/abstract-q-c-200-200-7.jpg" alt='breeze' >
+                                    </div>
+                                    Derek Onay<br />
+                                    Senior<br/>
+                                    Computer Science<br />
+                                    Midfield<br /> 
+                                </div>
+                                <div class="large-2 columns end stretch-for-no-content hide-for-medium-down"></div>     
                             </div>
                         </div>
                     </div>
@@ -140,6 +326,9 @@
                 <section class="schedule">
                     <a href="#" class="clickme">Show 2014 Schedule</a>
                     <div class="box2">
+                        <div class="drop-title">
+                            2014-2015 Midwest Alliance Conference Schedule
+                        </div>
                         <div class="row">
                             INSERT TABLE HERE!
                         </div>

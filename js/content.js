@@ -1,5 +1,5 @@
 $(document).ready (function () {
-    //Hide all the elements in the DOM that have a class of "box"
+    //Hide all collapsible the elements in the DOM 
     $('.box').hide();
     $('.box2').hide();
 
@@ -10,21 +10,23 @@ $(document).ready (function () {
             // This is only needed if your using an anchor to target the "box" elements
             e.preventDefault();
             
-            // Find the next "box" element in the DOM
-            $(this).next('.box').slideToggle('fast', function() {
+            // Slide Toggle in milliseconds
+            $(this).next('.box').slideToggle(1000, function() {
                 $(this).prev().html($(this).is(':visible') ? 'Hide Roster' : 'Show 2014 Roster');
             });
             
-            $(this).next('.box2').slideToggle('fast', function() {
+            $(this).next('.box2').slideToggle(1000, function() {
                 $(this).prev().html($(this).is(':visible') ? 'Hide Schedule' : 'Show 2014 Schedule');
             });
         });
         
         // Check if data-box was bound to the button, if it was trigger the click event
         // for the button
+        /*
         if ($(this).data('box-show')) {
             $(this).trigger('click');
         }
+        */
     });
 
 });
