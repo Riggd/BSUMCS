@@ -6,39 +6,34 @@
     <title>BSU Men's Club Soccer</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    
-    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/vendor/modernizr.js"></script>
-    <script type="text/javascript" src="js/vendor/jquery.js"></script>
-    <script type="text/javascript" src="js/foundation/foundation.js"></script>
-    <script type="text/javascript" src="js/foundation/foundation.equalizer.js"></script>
-    
-    <script type="text/javascript" src="js/navscroll.js"></script>
-    <script type="text/javascript" src="js/content.js"></script>
-    
-    <script type="text/javascript">
-    $(document).foundation();
-    </script>
 </head>
 <body>
 
     <header id="header" class="header">
         <!-- Nav Here -->
         <div class="row">
+        <img class="header-img right" src="images/logo.png">
             <a href="" class="header-logo">
                 <!-- LOGO HERE -->
                 <img class="header-img" src="images/cardinal.png">
             </a>
             <nav>
                 <ul class="header-list">
-                    <li class="header-list-items">About Us</li>
-                    <li class="header-list-items">Team</li>
-                    <li class="header-list-items">Venues</li>
-                    <li class="header-list-items">Get Involved</li>
+                    <li class="header-list-items">
+                        <a href="#about" class="header-link">About Us</a>
+                    </li>
+                    <li class="header-list-items">
+                        <a href="#team" class="header-link">Team</a>
+                    </li>
+                    <li class="header-list-items">
+                        <a href="#venues" class="header-link">Venues</a>
+                    </li>
+                    <li class="header-list-items">
+                        <a href="#contact" class="header-link">Get Involved</a>
+                    </li>
                 </ul>
             </nav>
+            
         </div>
     </header>
     
@@ -52,6 +47,7 @@
                     <img class="intro-logo" src="images/logo.png">
                     Ball State Men's Club Soccer
                 </div>
+                <a href="#contact" class="join-button">Join today</a>
             </div>
         </section>
         <section class="about">
@@ -69,29 +65,89 @@
                 </div>
                 <div class="row">
                     <div class="medium-6 columns">
-                        <h1 class="center-text">History of our club</h3>
+                        <h2 class="center-text">History of our club</h2>
                         <p>
-                        Ball State University Men's Club Soccer is a high-level soccer program that plays in the Midwest Alliance Soccer Conference (MASC), Eastern division, against club soccer teams from Ohio University, Cincinnati, Dayton, Xavier and Miami of Ohio, as well as other college and universities. During the offseason and before the league starts in the fall we play in friendlies against local Indiana clubs. We practice 2 to 4 times a week. Playing time is based off attendance of practices and talent level. As a team we participate as a part of Ball State's Community promoting our club team while also taking part in stadium clean ups, supporting the girls school soccer team, also girls club team and any soccer related events that help promote Ball State Community and the team. 
+                        Ball State University Men's Club Soccer is a high-level soccer program that 
+                        plays in the Midwest Alliance Soccer Conference (MASC). In previous years the
+                        team was part of the Eastern division, playing against club soccer teams from 
+                        Ohio University, Cincinnati, Dayton, Xavier and Miami of Ohio, as well as other
+                        college and universities. 
+                        <br /><br /> 
+                        As of 2014 the Men's Club Soccer team has made a move to the MASC Central Division, 
+                        in which the team's game schedule contains club teams from Indiana and Michigan. 
+                        During the off-season and before the league starts in the fall the Cardinals compete in friendly 
+                        matches against local Indiana clubs and universities. As a team the Cardinals participate 
+                        as a part of Ball State's Community promoting the club team while also taking part in 
+                        stadium clean ups, supporting the varsity girls school soccer team, also girls club team 
+                        and any soccer related events that help promote Ball State Community and the team. 
+                        <br /><br />
+                        Beginning in 2012 the Cardinals have been working with the local youth club, Delware County 
+                        Futbol Club. Members of the club team have been coaching a number of the youth teams, hoping 
+                        to develop the youth in to great players in a community where soccer is still setting its roots. 
+                        The rest speaks for its self, current soccer club players are giving back to the Muncie community 
+                        by taking part in what they love, the greatest sport on earth, soccer.
                         </p>
                     </div>
                     <div class="medium-6 columns">
-                        <h1 class="center-text">2014 Tryouts</h1>
+                        <h2 class="center-text">2014 Tryouts</h2>
                         <div class="row">
+                            <p>
+                                The team will meet at the bus stop circle near Worthen Arena, and across from Johnson Dorms
+                                roughly 20 minutes before the tryouts start. This allows us to show up as a team and make sure 
+                                those without a means of transportation are able to make it to the fields.
+                            </p>                                                          
                             <div class="small-12 medium-12 large-6 columns">
-                            <h4 class="center-text">When?</h4>
-                            
+                                <h4 class="center-text">When?</h4>
+                                <p>
+                                    All tryouts for the 2014 season will begin at 6:00pm and run until 8:00pm.<br />
+                                    The tryouts will take place on the following days:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Tuesday, August 19th<br />
+                                        Eastside Sports Complex<br />
+                                        Click here for map<br />
+                                    </li>
+                                    <li>
+                                        Wednesday, August 20th<br />
+                                        Eastside Sports Complex<br />
+                                        Click here for map<br />
+                                    </li>
+                                    <li>
+                                        Tuesday, August 21st<br />
+                                        Eastside Sports Complex<br />
+                                        Click here for map<br />
+                                    </li>
+                                </ul>
                             </div>
                             <div class="small-12 medium-12 large-6 columns">
-                            <h4 class="center-text">What?</h4>
+                                <h4 class="center-text">What?</h4>
+                                <p>
+                                    Make sure you bring with you to each tryout:
+                                </p>
+                                <ul>
+                                    <li>BSU ID Card</li>
+                                    <li>Soccer Cleats</li>
+                                    <li>Running Shoes</li>
+                                    <li>Water</li>
+                                    <li>Shin Guards</li>
+                                </ul>
+                            </div>
+                            <div class="large-12 columns">
+                                <p>
+                                    <strong>Note:</strong> You must fill out the waiver at the <a href="http://www.formstack.com/forms/?1371165-JXc5G76jGQ" target="_blank">Sport Clubs Website</a> by the second day of tryouts. <strong>This is mandatory for all members!</strong>
+                                    <br /><br />
+                                    For all questions about the 2014 tryouts please us the contact form at the bottom of the page.
+                                </p> 
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <h1 div class="center-text">What We Do</h1>
+                    <h2 div class="center-text">What We Do</h2>
                     <div class="medium-6 large-4  columns">
                         <h3 div class="center-text">Team Information</h3>
-                        Fusce luctus est a dolor luctus dapibus. In pharetra lectus est, vitae adipiscing quam iaculis at. Sed sit amet aliquam tellus, pharetra luctus enim. Donec et quam ac lorem suscipit laoreet et ac risus. Pellentesque varius nunc ac dui mollis, sit amet scelerisque neque tempus. Mauris quis malesuada est. Pellentesque dolor purus, tempus sed sollicitudin ut, pretium at dolor. In blandit nisl sit amet vestibulum sollicitudin. Etiam quam ligula, interdum sit amet mattis a, ornare ut lorem. Donec porta arcu vitae felis suscipit, et imperdiet est feugiat. Vestibulum in ipsum in purus facilisis venenatis quis eget risus. Pellentesque dictum sollicitudin pellentesque. Maecenas malesuada consequat erat, id tempor mi mollis tempor. 
+                        test
                     </div>
                     <div class="medium-6 large-4  columns">
                         <h3 div class="center-text">Community Involvement</h3>
@@ -504,7 +560,7 @@
                             <div class="venue-info">
                             Practice field for our Cardinals.<br /><br />
                             Our Cardinals also uses Heath Field as our secondary game field if Burris Field is occupied or unavailable for matches.<br /><br />
-                            About that hill situated on the 18 yard box... get used to it!<br /><br />
+                            About that hill situated on the 18 yard box... get used to it!
                             </div>
                             BUTTONS HERE
                             TO MAP - FIELD STATUS
@@ -589,5 +645,21 @@
             design by: Derek Onay | photography: Lauren (insert link to both webpages)
         </footer>
     </div>
+    
+    <!-- JS Imports -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/foundation/foundation.js"></script>
+    <script type="text/javascript" src="js/foundation/foundation.equalizer.js"></script>
+    
+    <script type="text/javascript" src="js/navscroll.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/content.js"></script>
+    
+    <script type="text/javascript">
+        $(document).foundation();
+    </script>
 </body>
 </html>
