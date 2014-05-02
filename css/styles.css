@@ -233,6 +233,7 @@ p {
 .intro-logo {
     display: block;
     margin: 0 auto 1em;
+    height: 4em;
 }
 
 .join-button {
@@ -240,7 +241,7 @@ p {
     border-radius: .2em;
     color: #fff;
     display: block;
-    margin: 3em auto;
+    margin: 4em auto;
     padding: 1em 3em;
     text-decoration: none;
     text-transform: uppercase;
