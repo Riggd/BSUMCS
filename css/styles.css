@@ -102,6 +102,17 @@ h1, h2, h3, h4 {
 
 p {
     line-height: 1.5;
+    font-size: .8em;
+}
+
+.list-text {
+    line-height: 1.5;
+    font-size: .8em;
+}
+
+
+.list-text li {
+    margin: 0.5em;
 }
 
 .right {
@@ -514,7 +525,7 @@ tbody tr:last-child td:last-child {
     font-style: normal;
     text-transform: uppercase;
     color: #fff;
-    margin: 1em;
+    margin: 0.6em 0 0.3em 0;
 } 
 
 .venue-info {
@@ -525,30 +536,84 @@ tbody tr:last-child td:last-child {
     line-height: 1.5;
 } 
 
-.click-to-map {
-    
+.bg-venues {
+    background-color: rgba(0, 0, 0, .75);
+    margin: 1.5em 0;
+    border-radius: .2em;
 }
- 
+
+.map-button {
+    border: 2px solid #fff;
+    border-radius: .2em;
+    color: #fff;
+    display: inline-block;
+    margin: 1em 0 1em 1.5em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
+}
+
+.map-button:hover {
+    text-decoration: none;
+    background-color: #aa1100;
+    border-color: #aa1100;
+    color: #fff;
+}
+
+.map-button:active  {
+    color: #fff;
+}
+
+.map-button:visited {
+    color: #fff;
+}
+
+.field-burris, .field-heath, .field-turf  {
+    border: 2px solid #fff;
+    border-radius: .2em;
+    display: inline-block;
+    padding: 1em 1.5em;
+    margin: 1em 1.5em 1em 0;
+    color: #fff;
+}
+
+.open {
+    border-color: #0FBC00;
+    color: #0FBC00;
+}
+
+.closed {
+    border-color: #aa1100;
+    color: #aa1100;
+}
+
 .burris {
+    background: url("../images/venue.jpg") no-repeat fixed 50% center #aa1100;
     width: 100%;
     height: 400px;
-    margin: 3em 0;
-    background-color: #aa1100;
-    background-attachment: fixed;
+    margin: 5em 0;
 }
 
 .heath {
+    background: url("../images/venue.jpg") no-repeat;
     width: 100%;
     height: 400px;
-    margin: 3em 0;
+    margin: 5em 0;
     background-color: #aa1100;
-    background-attachment: fixed;
+    background-position: 25%;
+    background-attachment: fixed;       
 }
 
 .turf {
+    background: url("../images/venue.jpg") no-repeat;
     width: 100%;
     height: 400px;
     background-color: #aa1100;
+    background-position: 75%;
     background-attachment: fixed;
 }
 

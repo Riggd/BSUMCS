@@ -64,7 +64,7 @@
                     </blockquote>
                 </div>
                 <div class="row">
-                    <div class="medium-6 columns">
+                    <div class="medium-6 columns hide-for-small-only">
                         <h2 class="center-text">History of our club</h2>
                         <p>
                         Ball State University Men's Club Soccer is a high-level soccer program that 
@@ -95,6 +95,8 @@
                                 The team will meet at the bus stop circle near Worthen Arena, and across from Johnson Dorms
                                 roughly 20 minutes before the tryouts start. This allows us to show up as a team and make sure 
                                 those without a means of transportation are able to make it to the fields.
+                                
+                                The team typically has a roster size of 22-24 players, 2-3 of which will be goal keepers.
                             </p>                                                          
                             <div class="small-12 medium-12 large-6 columns">
                                 <h4 class="center-text">When?</h4>
@@ -102,7 +104,7 @@
                                     All tryouts for the 2014 season will begin at 6:00pm and run until 8:00pm.<br />
                                     The tryouts will take place on the following days:
                                 </p>
-                                <ul>
+                                <ul class="list-text">                                
                                     <li>
                                         Tuesday, August 19th<br />
                                         Eastside Sports Complex<br />
@@ -125,7 +127,7 @@
                                 <p>
                                     Make sure you bring with you to each tryout:
                                 </p>
-                                <ul>
+                                <ul class="list-text">
                                     <li>BSU ID Card</li>
                                     <li>Soccer Cleats</li>
                                     <li>Running Shoes</li>
@@ -147,11 +149,28 @@
                     <h2 div class="center-text">What We Do</h2>
                     <div class="medium-6 large-4  columns">
                         <h3 div class="center-text">Team Information</h3>
-                        test
+                        <p>
+                        The Ball State club soccer team is a group of men dedicated to playing the sport and having fun. We currently play in the Central Division of the Midwest Alliance Soccer Conference,
+                        with hopes of receiving our first ever Regional Tournament bid.<br /><br />
+                        The team practices somewhere between two to four times a week. This allows use to blend together multiple field types, as well as training styles. We as a team practice both indoors
+                        and outdoors. These practices are usually between 6:00-8:00pm when outside, and usually after 8:00pm when indoors. At Ball State we are lucky to have an award-winning Student Recreation
+                        Center, which includes an indoor turf field, an indoor hard court surface, and an outdoor training area. <br /><br />
+                        Dues for our club for the 2014-2015 Season will be $150 per player, this price includes the following: league membership due, uniforms, travel costs, referee dues, and other expenses such as gas 
+                        and hotel fees. All BSU Sport Clubs are student funded, and over the past few years we have been working to lower our dues in order to allow more participation from students; however, 
+                        we do rely on these membership dues to stay afloat. Donations are highly appreciated and make a major difference in what we are able to do as a club.
+                        </p>
                     </div>
                     <div class="medium-6 large-4  columns">
                         <h3 div class="center-text">Community Involvement</h3>
-                        Fusce luctus est a dolor luctus dapibus. In pharetra lectus est, vitae adipiscing quam iaculis at. Sed sit amet aliquam tellus, pharetra luctus enim. Donec et quam ac lorem suscipit laoreet et ac risus. Pellentesque varius nunc ac dui mollis, sit amet scelerisque neque tempus. Mauris quis malesuada est. Pellentesque dolor purus, tempus sed sollicitudin ut, pretium at dolor. In blandit nisl sit amet vestibulum sollicitudin. Etiam quam ligula, interdum sit amet mattis a, ornare ut lorem. Donec porta arcu vitae felis suscipit, et imperdiet est feugiat. Vestibulum in ipsum in purus facilisis venenatis quis eget risus. Pellentesque dictum sollicitudin pellentesque. Maecenas malesuada consequat erat, id tempor mi mollis tempor. 
+                        <p>
+                        The Cardinals are more than just a team on the pitch, in the time off the field the Cardinals are working to show the Ball State and Muncie Community we want to help! Every year our team works with
+                        local youth club, Delaware County Futbol Club, as coaches to provide the club with a new perspective in soccer. As many of our players or not from the Muncie area this allows the teams to be coached
+                        in a different style than they may be used to. This experience not only allows our players to gain leadership experience, but also continue doing something they love and also give back to the community.<br /><br />
+                        The team also participates in stadium clean-ups once or twice per semester, on campus to help Ball State University. The team also participates in the BSU Dance Marathon 
+                        in order to raise funds for the Riley Children's Hospital. <br /><br />
+                        As a team we are looking to continue this streak of well-doing and if you are in need of able-bodied young men, feel free to <a href="#contact">contact us</a> below. 
+                        We are always open to new ideas and ways we can help!
+                        </p>
                     </div>   
                     <div class="medium-12 large-4 columns">
                         <h3 div class="center-text">Partners</h3>
@@ -541,46 +560,45 @@
                 </div>
                 <div class="burris">
                     <div class="row">
-                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns">
+                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns bg-venues">
                             <div class="venue-title center-text">Burris Field</div>
-                            <div class="venue-info">
+                            <div class="venue-info hide-for-small-only">
                             Home field for the Men and Women's BSU club soccer teams, as well as Burris Laboratory School.<br /><br />
                             This venue, brought to life in 2013, is used only for matches.<br /><br />
                             When our Cardinals step on to this pitch... they mean business!                            
                             </div>
-                            BUTTONS HERE
-                            TO MAP - FIELD STATUS
+                            <a class="map-button" href="maps.google.com">Google Maps</a>
+                            <div class="field-burris right open">Status: <span>Open</span></div>
                         </div>
                     </div>
                 </div>
                 <div class="heath">
                     <div class="row">
-                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns">
+                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns bg-venues">
                             <div class="venue-title center-text">Heath Field</div>
-                            <div class="venue-info">
+                            <div class="venue-info hide-for-small-only">
                             Practice field for our Cardinals.<br /><br />
                             Our Cardinals also uses Heath Field as our secondary game field if Burris Field is occupied or unavailable for matches.<br /><br />
                             About that hill situated on the 18 yard box... get used to it!
                             </div>
-                            BUTTONS HERE
-                            TO MAP - FIELD STATUS
+                            <a class="map-button" href="maps.google.com">Google Maps</a>
+                            <div class="field-heath right closed">Status: <span>Closed</span></div>
                         </div>
                     </div>
                 </div>
                 <div class="turf">
                     <div class="row">
-                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns">
+                        <div class="medium-8 large-5 medium-offset-4 large-offset-7 columns bg-venues">
                             <div class="venue-title center-text">
-                                Briner Sports Complex<br />
-                                Turf Field
+                                Briner Sports Complex
                             </div>
-                            <div class="venue-info">
+                            <div class="venue-info hide-for-small-only">
                             Briner Sports Complex is a state of the art sports complex, owned by BSU Athletics.<br /><br />
-                            Our Cardinals occasionally have a chance to host games at this complex; however, Athletics has first draw.<br /><br />
+                            Our Cardinals occasionally have a chance to host games at this complex.<br /><br />
                             When our team gets the green light for the turf field, we make sure to make good use of our time!
                             </div>
-                            BUTTONS HERE
-                            TO MAP - FIELD STATUS
+                            <a class="map-button" href="maps.google.com">Google Maps</a>
+                            <div class="field-turf right open">Status: <span>Open</span></div>
                         </div>
                     </div>
                 </div>
@@ -596,26 +614,33 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="medium-6 columns">
-                    Information or something... not sure?
-                    </div>
-                    <div class="medium-6 columns">
-                    Mini game why not, I program anyways.
+                    <div class="medium-9 small-centered columns">
+                        <h5>
+                        Coach needed for 2014-2015 season, if interested please use the contact form below or email us
+                        at soccer@bsu.edu.
+                        </h5>
                     </div>
                 </div>                
                 <div class="row contact-info">
-                    <div class="medium-6 large-4 columns">
-                    Text about why to contact us <br /><br />
-                    Cras eget nisi vitae nibh porta interdum ac ac metus. Ut non interdum tortor, sit amet elementum ipsum. Praesent volutpat justo nisi, vitae pulvinar urna accumsan quis. Quisque pulvinar interdum mauris, a varius felis ullamcorper ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam cursus congue molestie. Curabitur tempor lacus mi, at vehicula neque vestibulum sed. Maecenas rhoncus luctus elit. Proin placerat aliquet sodales.               
+                    <div class="medium-6 large-4 columns hide-for-small-only">
+                        <h6>Please contact us for any of the below reasons:</h6>
+                        <ul class="list-text">
+                            <li>Want to show your support</li>
+                            <li>Interested in Playing</li>
+                            <li>Interested in Coaching</li>
+                            <li>General information</li>
+                            <li>Donations</li>                            
+                        </ul>
                     </div>
                     <div class="medium-6 large-3 columns">
-                    Find us here:<br />
-                    facebook<br />
-                    MASC<br />
-                    sportclub<br />
-                    bsu.edu<br />
+                        <h6>Important Links</h6>
+                        facebook<br />
+                        MASC<br />
+                        sportclub<br />
+                        bsu.edu<br />
                     </div>
                     <div class="large-5 columns">
+                        <h6>Get in touch</h6>
                         <form>
                             <div class="row">
                                 <div class="large-12">
