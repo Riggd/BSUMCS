@@ -108,17 +108,17 @@
                                     <li>
                                         Tuesday, August 19th<br />
                                         Eastside Sports Complex<br />
-                                        Click here for map<br />
+                                        <a href="https://www.google.com/maps/dir/Ball+State+University,+2000+W+University+Ave,+Muncie,+IN+47306/40.1984728,-85.3298625/@40.2007476,-85.3692995,13z/am=t/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x88153d66697c1e21:0xe4e0ee9b189f89f4!2m2!1d-85.408841!2d40.197237!1m0!3e0">Click for directions</a><br />
                                     </li>
                                     <li>
                                         Wednesday, August 20th<br />
                                         Eastside Sports Complex<br />
-                                        Click here for map<br />
+                                        <a href="https://www.google.com/maps/dir/Ball+State+University,+2000+W+University+Ave,+Muncie,+IN+47306/40.1984728,-85.3298625/@40.2007476,-85.3692995,13z/am=t/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x88153d66697c1e21:0xe4e0ee9b189f89f4!2m2!1d-85.408841!2d40.197237!1m0!3e0">Click for directions</a><br />
                                     </li>
                                     <li>
                                         Tuesday, August 21st<br />
                                         Eastside Sports Complex<br />
-                                        Click here for map<br />
+                                        <a href="https://www.google.com/maps/dir/Ball+State+University,+2000+W+University+Ave,+Muncie,+IN+47306/40.1984728,-85.3298625/@40.2007476,-85.3692995,13z/am=t/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x88153d66697c1e21:0xe4e0ee9b189f89f4!2m2!1d-85.408841!2d40.197237!1m0!3e0">Click for directions</a><br />
                                     </li>
                                 </ul>
                             </div>
@@ -567,7 +567,7 @@
                             This venue, brought to life in 2013, is used only for matches.<br /><br />
                             When our Cardinals step on to this pitch... they mean business!                            
                             </div>
-                            <a class="map-button" href="maps.google.com">Google Maps</a>
+                            <a class="map-button" href="https://www.google.com/maps/place/West+Campus+Field/@40.1978753,-85.4170199,17z/data=!4m2!3m1!1s0x0:0x727ffa1a23bddb4c">Google Maps</a>
                             <div class="field-burris right open">Status: <span>Open</span></div>
                         </div>
                     </div>
@@ -581,7 +581,7 @@
                             Our Cardinals also uses Heath Field as our secondary game field if Burris Field is occupied or unavailable for matches.<br /><br />
                             About that hill situated on the 18 yard box... get used to it!
                             </div>
-                            <a class="map-button" href="maps.google.com">Google Maps</a>
+                            <a class="map-button" href="https://www.google.com/maps/place/Evermore+Dr/@40.2264048,-85.4311067,18z/data=!4m2!3m1!1s0x881517fc6b4e3575:0x569cf87976a09ac">Google Maps</a>
                             <div class="field-heath right closed">Status: <span>Closed</span></div>
                         </div>
                     </div>
@@ -593,11 +593,11 @@
                                 Briner Sports Complex
                             </div>
                             <div class="venue-info hide-for-small-only">
-                            Briner Sports Complex is a state of the art sports complex, owned by BSU Athletics.<br /><br />
-                            Our Cardinals occasionally have a chance to host games at this complex.<br /><br />
+                            A state of the art sports complex owned by BSU Athletics.<br /><br />
+                            Our team occasionally have a chance to host games at this complex.<br /><br />
                             When our team gets the green light for the turf field, we make sure to make good use of our time!
                             </div>
-                            <a class="map-button" href="maps.google.com">Google Maps</a>
+                            <a class="map-button" href="https://www.google.com/maps/place/Artificial+Turf+Field/@40.2174975,-85.4170644,17z/data=!4m2!3m1!1s0x0:0xa4ac31b821483aef">Google Maps</a>
                             <div class="field-turf right open">Status: <span>Open</span></div>
                         </div>
                     </div>
