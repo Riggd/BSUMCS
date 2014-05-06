@@ -623,7 +623,7 @@
                 </div>                
                 <div class="row contact-info">
                     <div class="medium-6 large-4 columns hide-for-small-only">
-                        <h6>Please contact us for any of the below reasons:</h6>
+                        <h3>Contact us for below reasons:</h3>
                         <ul class="list-text">
                             <li>Want to show your support</li>
                             <li>Interested in Playing</li>
@@ -633,14 +633,17 @@
                         </ul>
                     </div>
                     <div class="medium-6 large-3 columns">
-                        <h6>Important Links</h6>
-                        facebook<br />
-                        MASC<br />
-                        sportclub<br />
-                        bsu.edu<br />
+                        <h3 class="center-text">Important Links</h3>
+                        <p>Links to our Facebook page, the MASC website, the Sport Clubs website, and the Ball State University homepage.</p>
+                        <ul class="small-block-grid-2">
+                            <li><img class="contact-logo" src="images/sportclubslogo.png" alt="Facebook Club Soccer"></li>
+                            <li><img class="contact-logo right" src="images/sportclubslogo.png" alt="MASC Website"></li>
+                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo" src="images/sportclubslogo.png" alt="Sport Clubs Website"></a></li>
+                            <li><a href="http://cms.bsu.edu" target="_blank"><img class="contact-logo right" src="images/cardinal.png" alt="BSU Homepage"></a></li>
+                        </ul>                 
                     </div>
                     <div class="large-5 columns">
-                        <h6>Get in touch</h6>
+                        <h3>Get in touch</h3>
                         <form>
                             <div class="row">
                                 <div class="large-12">
