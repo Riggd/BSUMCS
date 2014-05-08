@@ -636,10 +636,10 @@
                         <h3 class="center-text">Important Links</h3>
                         <p>Links to our Facebook page, the MASC website, the Sport Clubs website, and the Ball State University homepage.</p>
                         <ul class="small-block-grid-2">
-                            <li><img class="contact-logo" src="images/sportclubslogo.png" alt="Facebook Club Soccer"></li>
-                            <li><img class="contact-logo right" src="images/sportclubslogo.png" alt="MASC Website"></li>
-                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo" src="images/sportclubslogo.png" alt="Sport Clubs Website"></a></li>
-                            <li><a href="http://cms.bsu.edu" target="_blank"><img class="contact-logo right" src="images/cardinal.png" alt="BSU Homepage"></a></li>
+                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo" src="images/fb.png" alt="Facebook Club Soccer"></a></li>
+                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo right" src="images/sportclubslogo.png" alt="Sport Clubs Website"></a></li>
+                            <li><img class="contact-logo" src="images/sportclubslogo.png" alt="MASC Website"></li>                            
+                            <li><a href="http://www.imleagues.com/masc" target="_blank"><img class="contact-logo right" src="images/cardinal.png" alt="IMLeagues Website"></a></li>
                         </ul>                 
                     </div>
                     <div class="large-5 columns">

@@ -378,6 +378,7 @@ blockquote {
     padding: .5em;
     text-decoration: none;
     width: 40%;
+    content: "+";
     font-size: 1.5em;
     text-align: center;
 }
@@ -624,7 +625,6 @@ tbody tr:last-child td:last-child {
 }
 
 .contact-logo {
-    margin: 0 1em 1em;
     height: 6em;
     opacity: 0.5;
     filter: alpha(opacity=50); 
