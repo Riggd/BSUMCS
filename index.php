@@ -6,6 +6,7 @@
     <title>BSU Men's Club Soccer</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!--<link rel="stylesheet" href="css/animate.css" />-->
 </head>
 <body>
 
@@ -166,7 +167,7 @@
                         The Cardinals are more than just a team on the pitch, in the time off the field the Cardinals are working to show the Ball State and Muncie Community we want to help! Every year our team works with
                         local youth club, Delaware County Futbol Club, as coaches to provide the club with a new perspective in soccer. As many of our players or not from the Muncie area this allows the teams to be coached
                         in a different style than they may be used to. This experience not only allows our players to gain leadership experience, but also continue doing something they love and also give back to the community.<br /><br />
-                        The team also participates in stadium clean-ups once or twice per semester, on campus to help Ball State University. The team also participates in the BSU Dance Marathon 
+                        The team takes part in stadium clean-ups once or twice per semester, on campus to help Ball State University. The team also participates in the BSU Dance Marathon 
                         in order to raise funds for the Riley Children's Hospital. <br /><br />
                         As a team we are looking to continue this streak of well-doing and if you are in need of able-bodied young men, feel free to <a href="#contact">contact us</a> below. 
                         We are always open to new ideas and ways we can help!
@@ -638,7 +639,7 @@
                         <ul class="small-block-grid-2">
                             <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo" src="images/fb.png" alt="Facebook Club Soccer"></a></li>
                             <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo right" src="images/sportclubslogo.png" alt="Sport Clubs Website"></a></li>
-                            <li><img class="contact-logo" src="images/sportclubslogo.png" alt="MASC Website"></li>                            
+                            <li><a href="http://www.midwestalliancesoccer.com" target="_blank"><img class="contact-logo" src="images/masc.png" alt="MASC Website"></a></li>                            
                             <li><a href="http://www.imleagues.com/masc" target="_blank"><img class="contact-logo right" src="images/cardinal.png" alt="IMLeagues Website"></a></li>
                         </ul>                 
                     </div>
@@ -685,6 +686,7 @@
     <script type="text/javascript" src="js/navscroll.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/content.js"></script>
+    <script type="text/javascript" src="js/divpeek.js"></script>
     
     <script type="text/javascript">
         $(document).foundation();
