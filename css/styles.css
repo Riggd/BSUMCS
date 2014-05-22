@@ -215,12 +215,26 @@ p {
     height: 780px;
     text-align: center;
     overflow: hidden;
+    position: relative;
 }
 
 .intro {
     padding-top: 10em;
     width: 100%;
     z-index: 2;
+}
+
+.video-bg {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: 2;
+     overflow: hidden;
+     display: block;
 }
 
 .dark-fade {
@@ -361,8 +375,6 @@ blockquote {
     transform: scale(0.9);
 } 
 
-
-
 /*
     ============================
     TOGGLE BOX STYLES
@@ -419,7 +431,7 @@ blockquote {
     ============================
 */
 
-table { 
+table {
     width: 100%; 
     border: none;
     *border-collapse: collapse; 
@@ -427,17 +439,17 @@ table {
 }
 
 /* Zebra striping */
-tr:nth-of-type(odd) { 
+tr:nth-of-type(odd) {
     background: #e4e4e4; 
 }
 
-th { 
+th {
     background: #aa1100; 
     color: #fff !important; 
     font-weight: bold; 
 }
 
-td, th { 
+td, th {
     padding: 6px; 
     border: 1px solid #222; 
     text-align: left; 
@@ -471,47 +483,49 @@ tbody tr:last-child td:last-child {
 
 @media only screen and (max-width: 500px) {
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr  { 
-		display: block !important; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50% !important; 
-	}
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: .6em;
-		left: .6em;
-		width: 45%; 
-		padding-right: 1em; 
-		white-space: nowrap;
-	}
-	
-	/*
-	Label the data
-	*/
-	td:nth-of-type(1):before { content: "Date"; }
-	td:nth-of-type(2):before { content: "Home Team"; }
-	td:nth-of-type(3):before { content: "Away Team"; }
-	td:nth-of-type(4):before { content: "Location"; }
-	td:nth-of-type(5):before { content: "Result"; }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr  {
+        display: block !important;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50% !important;
+    }
+
+    td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: .6em;
+        left: .6em;
+        width: 45%;
+        padding-right: 1em;
+        white-space: nowrap;
+    }
+
+    /*
+    Label the data
+    */
+    td:nth-of-type(1):before {content: "Date";}
+    td:nth-of-type(2):before {content: "Home Team";}
+    td:nth-of-type(3):before {content: "Away Team";}
+    td:nth-of-type(4):before {content: "Location";}
+    td:nth-of-type(5):before {content: "Result";}
 }
 
 /*
@@ -527,7 +541,7 @@ tbody tr:last-child td:last-child {
     text-transform: uppercase;
     color: #fff;
     margin: 0.6em 0 0.3em 0;
-} 
+}
 
 .venue-info {
     font-size: 1em;
@@ -535,14 +549,13 @@ tbody tr:last-child td:last-child {
     padding: 0 .5em;
     margin-bottom: 1em;
     line-height: 1.5;
-} 
+}
 
 .bg-venues {
     background-color: rgba(0, 0, 0, .75);
     margin: 2em 0;
     border-radius: .2em;
 }
-
 
 .bg-venues .inViewPort {
     -webkit-animation-name: fadeInRight;
@@ -636,7 +649,9 @@ tbody tr:last-child td:last-child {
     width: 100%;  
     background-color: #aa1100;
     background-position: 25%;
-    background-attachment: fixed;       
+    background-attachment: fixed;     
+    z-index: -3;
+    -webkit-transform: translateZ(0);
 }
 
 .burris {

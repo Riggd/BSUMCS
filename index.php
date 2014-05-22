@@ -42,6 +42,11 @@
     <div class="wrapper">
         <section id="intro" class="intro-container">
             <!-- VIDEO HERE -->
+            <video class="video-bg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+            	<source src="videos/soccer.mp4" type="video/mp4">
+                <source src="videos/soccer.webm" type="video/webm">
+            </video>
+
             <div class="intro dark-fade">
                 <div class="top-title title-intro">
                     <!-- Insert New Logo/Badge -->
@@ -637,7 +642,7 @@
                         <h3 class="center-text">Important Links</h3>
                         <p>Links to our Facebook page, the MASC website, the Sport Clubs website, and the Ball State University homepage.</p>
                         <ul class="small-block-grid-2">
-                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo" src="images/fb.png" alt="Facebook Club Soccer"></a></li>
+                            <li><a href="https://www.facebook.com/BallStateMensClubSoccer" target="_blank"><img class="contact-logo" src="images/fb.png" alt="Facebook Club Soccer"></a></li>
                             <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo right" src="images/sportclubslogo.png" alt="Sport Clubs Website"></a></li>
                             <li><a href="http://www.midwestalliancesoccer.com" target="_blank"><img class="contact-logo" src="images/masc.png" alt="MASC Website"></a></li>                            
                             <li><a href="http://www.imleagues.com/masc" target="_blank"><img class="contact-logo right" src="images/cardinal.png" alt="IMLeagues Website"></a></li>
