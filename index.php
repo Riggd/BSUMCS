@@ -542,10 +542,17 @@
                                 </thead> 
                                 <tbody> 
                                     <tr> 
-                                        <td>September 7th, 2014</td> 
-                                        <td>Michigan State University</td>
+                                        <td>August 30th, 2014 - 1:00pm</td> 
+                                        <td>Huntington University Reserves</td>
                                         <td>Ball State University</td> 
-                                        <td>Michigan State University</td> 
+                                        <td>Huntington University - <a href="https://www.google.de/maps/dir/Ball+State+University,+2000+W+University+Ave,+Muncie,+IN+47306,+United+States/2303+College+Ave,+Huntington,+IN+46750,+USA/@40.5480403,-85.7386156,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88153d66697c1e21:0xe4e0ee9b189f89f4!2m2!1d-85.408841!2d40.197237!1m5!1m1!1s0x8815c996585e82f5:0xb50b2d641b67d03e!2m2!1d-85.499843!2d40.8990026!3e0">Click for Map</a></td> 
+                                        <td>N/A</td> 
+                                    </tr>
+                                    <tr> 
+                                        <td>August 31st, 2014</td> 
+                                        <td>Ball State University</td>
+                                        <td>TBA</td> 
+                                        <td>Ball State University</td> 
                                         <td>N/A</td> 
                                     </tr>
                                 </tbody>

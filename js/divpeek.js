@@ -2,7 +2,7 @@
 //(see https://github.com/davidhalford/DivPeek)
 //===============================================================================
 //CONFIG: 
-var elementsToTrack = [".bg-venues"];
+var elementsToTrack = [".bg-venues",".bg-venues1",".bg-venues2"];
 
 var pixelOffset = -50;
 var inClassName = "inViewPort";
