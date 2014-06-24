@@ -690,6 +690,114 @@ tbody tr:last-child td:last-child {
     filter: alpha(opacity=100); 
 }
 
+.form-tester {
+    position: absolute;
+    left: -9999px;
+}   
+
+.error {
+    color: #FF0000;
+}
+
+.special  {
+    position: relative;
+}
+
+.sneaky {
+    display: none;
+}
+
+.flat-button, .flat-button:hover, .flat-button:focus {
+    position: relative;
+    vertical-align: top;
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    background: #AA1100;
+    border: 0;
+    border-bottom: 2px solid #700900;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #700900;
+    box-shadow: inset 0 -2px #700900;
+    font-family: 'Raleway',sans-serif;
+}
+
+.flat-button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*
+    ============================
+    MODAL STYLES
+    ============================
+*/
+
+#simplemodal-overlay {
+    background-color:#000;
+}
+
+#simplemodal-container {
+    background-color:#333; 
+    border:8px solid #444; 
+    box-sizing: content-box;
+    padding:12px;
+}
+
+#simplemodal-wrap:before, #simplemodal-wrap:after,
+#simplemodal-data:before, #simplemodal-data:after {
+    box-sizing: content-box;
+}
+
+/*
+    ============================
+    GALLERY STYLES
+    ============================
+*/
+
+.upload {
+    background: rgba(0,0,0,.3);
+}
+
+.gallery {
+    margin: 3em auto;
+}
+
+.top-upload {
+    height: 600px;
+}
+
+.gal-img {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gal-img img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;   
+}
+
+.gal-img img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.gal-push {
+    margin-top: 2em;
+}
+
 /*
     ============================
     FOOTER STYLES
