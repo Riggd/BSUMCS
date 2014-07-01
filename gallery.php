@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/index.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="css/animate.css" /> -->
 
     <!--  Google Tracking Code  -->
@@ -29,7 +30,7 @@
             color: #aa1100 !important;
         }
     </style>
-    
+
     
     
 </head>
@@ -71,68 +72,39 @@
                 
                 <p class="top-title gal-push">We need your help!</p>
                 
+                <div class='holder center-text' id="holder">
+                    <div id='holder_helper'>
+                        <h2 id="holder_helper_title" class="gal-surround">Drag & Drop your image to upload!</h2>
+                    </div>
+                        <img id="source_image" class='img_container'/>
+                </div>
+
+                <!--
+                <form>
                 <div id="zone10">
                     <p class="legend">
                         Drop a file or click here to upload your photos.
                     </p>
 
-                    <!-- You can also use <progress> tag of HTML5: -->
+                     You can also use <progress> tag of HTML5:
                     <p class="progress">
                         <span id="bar_zone10"></span>
                     </p>
                 </div>
-                
+                </form>-->
                 <h3 class="center-text">Upload your photos and create history, 2014... 1985... we want it all!</h3>
             </div>
         </section>
         
         <section class="gallery">
-            <div class="row">
-                <div class="gal-img medium-8 large-8 columns">
-                    <img src="images/venue.jpg" alt="gallery1"/>
-                </div>
-                <div class="gal-img medium-4 large-4 columns">
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                    <img src="images/venue.jpg" alt="gallery3"/>
-                </div>
-            </div>
-            <div class="row">    
-                <div class="gal-img medium-4 large-4 columns">
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                </div>
-                <div class="gal-img medium-8 large-8 columns">
-                    <img src="images/venue.jpg" alt="gallery1"/>
-                </div>
-            </div>
-            <div class="row">     
-                <div class="gal-img medium-8 large-8 columns">
-                    <img src="images/venue.jpg" alt="gallery1"/>
-                </div>
-                <div class="gal-img medium-4 large-4 columns">
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                </div>
-            </div>
-            <div class="row">     
-                 <div class="gal-img medium-4 large-4 columns">
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                    <img src="images/venue.jpg" alt="gallery2"/>
-                </div>
-                <div class="gal-img medium-8 large-8 columns">
-                    <img src="images/venue.jpg" alt="gallery1"/>
-                </div>
-            </div>
-        </section>
-        
-        <section class="gallery-test">
-            <?php include('dynamicgrid.php'); ?>
+            <?php //include('dynamicgrid.php'); ?>
+            <?php include('pageing.php'); ?>
         </section>
         
         <footer id="footer" class="footer">
             © Ball State Men's Club Soccer 2014 | All rights Reserved.
             <br/>
-            design by: Derek Onay | photography: Lauren (insert link to both webpages)
+            development: Derek Onay | photography: Lauren (insert link to both webpages)
         </footer>
     </div>
     
@@ -143,7 +115,6 @@
     <script type="text/javascript" src="js/vendor/jquery.js"></script>
     <script type="text/javascript" src="js/foundation/foundation.js"></script>
     <script type="text/javascript" src="js/foundation/foundation.equalizer.js"></script>
-    <script type="text/javascript" src="js/foundation/foundation.reveal.js"></script>
     <script type="text/javascript" src="js/jquery.simplemodal-1.4.4.js"></script>
     
     
@@ -151,29 +122,9 @@
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/content.js"></script>
     <script type="text/javascript" src="js/divpeek.js"></script>
-    <script type="text/javascript" src="js/filedrop-min.js"></script>
-   <!--
-        UPLOAD SCRIPT MUST REFACTOR-->
-   <script type="text/javascript">
-        var zone = new FileDrop('zone10');
-
-        zone.event('send', function (files) {
-          files.each(function (file) {
-            // Reset the progress when a new upload starts:
-            file.event('sendXHR', function () {
-              fd.byID('bar_zone10').style.width = 0;
-            });
-
-            // Update progress when browser reports it:
-            file.event('progress', function (current, total) {
-              var width = current / total * 100 + '%';
-              fd.byID('bar_zone10').style.width = width;
-            });
-
-            file.sendTo('upload.php');
-          });
-        });
-    </script>
+    <!--<script type="text/javascript" src="js/filedrop-min.js"></script>-->
+    <script type="text/javascript" src="js/JIC.js"></script>
+    <script type="text/javascript" src="js/compUp.js"></script>>
     
     <script type="text/javascript">
     var images = document.getElementsByTagName('img'); 

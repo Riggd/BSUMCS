@@ -6,6 +6,7 @@
     <title>Ball State Men's Soccer Club</title>
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Kreon:400,700|Fjalla+One' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="css/animate.css" /> -->
 
     <!--  Google Tracking Code  -->
@@ -69,7 +70,7 @@
                 <div class="top-title title-intro">
                     <!--  Insert New Logo/Badge  -->
                     <img class="intro-logo" src="images/logo.png"/>
-                    Ball State Men's Club Soccer
+                    Ball State Men's Soccer Club
                 </div>
                 <a href="#contact" class="join-button">Join today</a>
             </div>
@@ -83,8 +84,8 @@
                 </div>
                 <div class="row">
                     <blockquote>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec neque sapien. Curabitur ornare dapibus tristique. Maecenas vitae quam sit amet lectus cursus tincidunt. Proin elit purus, elementum et quam a, porta pellentesque nisl. Proin non nisl odio. Morbi dapibus leo vitae ligula volutpat, ac vulputate ipsum laoreet. Aenean dictum lacinia tortor, nec dapibus neque faucibus ut. Etiam faucibus facilisis pharetra. Sed fermentum nulla at purus luctus laoreet. Suspendisse varius neque facilisis nulla dignissim consectetur. 
-                    <cite>Men's Club Soccer Mission Statement</cite>
+                    The Ball State Men's Soccer Club mission is to provide a high level men's college soccer program to Ball State University. A sport team dedicated to bringing awareness of the soccer culture to the community. Through fair play, hard work, and diligence the members of the team strive to provide a safe and entertaining atmosphere for local youth players to learn from. Our vision as a team is to compete at a high level of play while keeping the most important aspect of the game present,  <i>Fun</i>. 
+                    <cite>Ball State Men's Soccer Club Mission Statement</cite>
                     </blockquote>
                 </div>
                 <div class="row">
@@ -105,7 +106,7 @@
                         stadium clean ups, supporting the varsity girls school soccer team, also girls club team 
                         and any soccer related events that help promote Ball State Community and the team. 
                         <br/><br/>
-                        Beginning in 2012 the Cardinals have been working with the local youth club, Delware County 
+                        Beginning in 2012 the Cardinals have been working with the local youth club, Delaware County 
                         Futbol Club. Members of the club team have been coaching a number of the youth teams, hoping 
                         to develop the youth in to great players in a community where soccer is still setting its roots. 
                         The rest speaks for its self, current soccer club players are giving back to the Muncie community 
@@ -179,7 +180,7 @@
                         The team practices somewhere between two to four times a week. This allows use to blend together multiple field types, as well as training styles. We as a team practice both indoors
                         and outdoors. These practices are usually between 6:00-8:00pm when outside, and usually after 8:00pm when indoors. At Ball State we are lucky to have an award-winning Student Recreation
                         Center, which includes an indoor turf field, an indoor hard court surface, and an outdoor training area. <br/><br/>
-                        Dues for our club for the 2014-2015 Season will be $150 per player, this price includes the following: league membership due, uniforms, travel costs, referee dues, and other expenses such as gas 
+                        Dues for our club for the 2014-2015 season will be $150 per player, this price includes the following: league membership due, uniforms, travel costs, referee dues, and other expenses such as gas 
                         and hotel fees. All BSU Sport Clubs are student funded, and over the past few years we have been working to lower our dues in order to allow more participation from students; however, 
                         we do rely on these membership dues to stay afloat. Donations are highly appreciated and make a major difference in what we are able to do as a club.
                         </p>
@@ -636,27 +637,37 @@
                     </div>
                 </div>                
                 <div class="row contact-info">
-                    <div class="medium-6 large-4 columns hide-for-small-only">
+                    <div class="medium-12 large-12 columns hide-for-small-only">
                         <h3>Contact us for below reasons:</h3>
-                        <ul class="list-text">
-                            <li>Want to show your support</li>
-                            <li>Interested in Playing</li>
-                            <li>Interested in Coaching</li>
-                            <li>General information</li>
-                            <li>Donations</li>                            
+                        <ul class="small-block-grid-3 center-text">
+                            <li class="contact-item">
+                                Donations<br/>
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                                ">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                            </li>                            
+                            <li class="contact-item">Interested in Playing</li>
+                            <li class="contact-item">Interested in Coaching</li>
+                            <li class="contact-item">General information</li>
+                            <li class="contact-item">Show your support</li>
+                            <li class="contact-item">Alumni</li> 
                         </ul>
                     </div>
-                    <div class="medium-6 large-3 columns">
+                    <div class="large-6 columns">
                         <h3 class="center-text">Important Links</h3>
-                        <p>Links to our Facebook page, the MASC website, the Sport Clubs website, and the Ball State University homepage.</p>
-                        <ul class="small-block-grid-2">
+                        <p>Links to our Facebook page, the MASC website, the Sport Clubs website, and the IMLeagues MASC webpage.</p>
+                        <ul class="small-block-grid-4 center-text">
                             <li><a href="https://www.facebook.com/BallStateMensClubSoccer" target="_blank"><img class="contact-logo" src="images/fb.png" alt="Facebook Club Soccer"/></a></li>
-                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo right" src="images/sportclubslogo.png" alt="Sport Clubs Website"/></a></li>
+                            <li><a href="http://bsu.edu/recreation/sport-clubs.html" target="_blank"><img class="contact-logo"src="images/sportclubslogo.png" alt="Sport Clubs Website"/></a></li>
                             <li><a href="http://www.midwestalliancesoccer.com" target="_blank"><img class="contact-logo" src="images/masc.png" alt="MASC Website"/></a></li>                            
-                            <li><a href="http://www.imleagues.com/masc" target="_blank"><img class="contact-logo right" src="images/cardinal.png" alt="IMLeagues Website"/></a></li>
+                            <li><a href="http://www.imleagues.com/masc" target="_blank"><img class="contact-logo" src="images/cardinal.png" alt="IMLeagues Website"/></a></li>
                         </ul>                 
                     </div>
-                    <div class="large-5 columns">
+                    <div class="large-6 columns">
                         <h3 class="center-text">Get in touch</h3>
                         
                         <?php 
@@ -734,14 +745,14 @@
                                 </div>
                             </div>
                         </form>
-                    </wr3tched@gmail.com></wr3tched@gmail.com></wr3tched@gmail.com></div>                    
+                    </div>                    
                 </div>
             </div>
         </section>
         <footer id="footer" class="footer">
             © Ball State Men's Club Soccer 2014 | All rights Reserved.
             <br/>
-            design by: Derek Onay | photography: Lauren (insert link to both webpages)
+            development: Derek Onay | photography: Lauren (insert link to both webpages)
         </footer>
     </div>
     
